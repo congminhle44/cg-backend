@@ -1,9 +1,8 @@
-const dotenv = require("dotenv");
-dotenv.config();
+const dotenv = require('dotenv')
+dotenv.config()
 
 const config = {
-  port: process.env.PORT,
-  limitFileSize: process.env.LIMIT_FILESIZE,
-};
+  port: process.env.PORT
+}
 
-module.exports = config;
+module.exports = config
